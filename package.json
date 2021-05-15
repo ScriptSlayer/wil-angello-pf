@@ -1,0 +1,25 @@
+{
+  "name": "wil-angello-pf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "json": "^11.0.0",
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScriptSlayer/wil-angello-pf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScriptSlayer/wil-angello-pf/issues"
+  },
+  "homepage": "https://github.com/ScriptSlayer/wil-angello-pf#readme"
+}
