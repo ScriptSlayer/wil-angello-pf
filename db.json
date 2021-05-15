@@ -1,0 +1,22 @@
+{
+    "Skills": [
+        {
+            "id": 0,
+            "name": "Javascript",
+            "description": "Programming language for the web",
+            "platform": "web"
+        },
+        {
+            "id": 1,
+            "name": "HTML",
+            "description": "Hyper Text Markup Language for structuring web pages",
+            "platform": "web"
+        },
+        {
+            "id": 2,
+            "name": "CSS",
+            "description": "Cascading Style Sheets used to style the HTML structured documents",
+            "platform": "web"
+        }
+    ] 
+}
