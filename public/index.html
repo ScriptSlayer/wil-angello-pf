@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Porfolio</title>
     <!-- <link rel="stylesheet" href="app.css"> -->
     <style>
@@ -58,12 +59,12 @@ html, body {
     background-color: var(--bg-body);
 }
 .container {
-    height: max-content;
+    height: 100vh;
     width: max-content;
     background-color: var(--bg-main);
     /* border: 1px solid #000; */
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 5px;
+    padding: 5px;
     position: relative;
     overflow: hidden;
 }
@@ -200,7 +201,7 @@ html, body {
 
 	.toggle-nav {
 		padding:20px;
-		float:left;
+		float: left;
 		display:inline-block;
 		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
 		border-radius:3px;
@@ -248,5 +249,18 @@ html, body {
         </nav>
         <div class="main"></div>
     </div>
+	<script>
+		// const nav = document.querySelector(".toggle-nav").addEventListener('click', function () {
+
+		// })
+		jQuery(document).ready(function() {
+			jQuery('.toggle-nav').click(function(e) {
+			jQuery(this).toggleClass('active');
+			jQuery('.menu ul').toggleClass('active');
+
+		e.preventDefault();
+	});
+});
+	</script>
 </body>
 </html>
