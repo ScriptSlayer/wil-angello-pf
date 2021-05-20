@@ -69,8 +69,20 @@ body {
     overflow: hidden;
     /* transform: scale(1.25); */
 }
+.back-home {
+    font-family: 'Roboro',sans-serif;
+    background-color: var(--bg-main);
+    width: 120px;
+    height: 60px;
+    border: none;
+    border-bottom: 1rem solid;
+    box-shadow: var(--shadow);
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
 
 .light .calendar {
+    font-family: 'Roboto', sans-serif;
     box-shadow: var(--shadow);
 }
 
@@ -318,9 +330,10 @@ body {
         opacity: 1;
     }
 }
-    </style>
+</style>
 </head>
 <body class="light">
+    <button class="back-home" type="reset"><a href="index.html">Hema</a></button>
     <div class="calendar">
         <div class="calendar-header">
             <span class="month-picker" id="month-picker">
